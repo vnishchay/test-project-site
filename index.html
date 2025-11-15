@@ -11,27 +11,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Top Bar -->
-    <div class="top-bar">
-        <div class="container">
-            <div class="top-bar-content">
-                <div class="contact-info-bar">
-                    <a href="mailto:bhardwajhos.vns@gmail.com" class="contact-link">
-                        <span class="icon">📧</span>
-                        <span>bhardwajhos.vns@gmail.com</span>
-                    </a>
-                    <a href="tel:+919140815001" class="contact-link">
-                        <span class="icon">📞</span>
-                        <span>+91-9140815001</span>
-                    </a>
-                </div>
-                <div class="social-links-bar">
-                    <a href="https://www.facebook.com/bhardwajhospital/" target="_blank" rel="noopener" class="social-link">Facebook</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
@@ -116,6 +95,15 @@
                     <div class="hero-buttons">
                         <a href="#appointment" class="btn btn-primary">Book Appointment</a>
                         <a href="#about" class="btn btn-secondary">Learn More</a>
+                    </div>
+                    
+                    <div class="hero-social">
+                        <a href="https://www.facebook.com/bhardwajhospital/" target="_blank" rel="noopener" class="btn-facebook-hero">
+                            <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                            <span>Follow us on Facebook</span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -240,9 +228,12 @@
                 </div>
 
                 <div class="service-card" id="diabetes">
-                    <div class="service-image-wrapper">
-                        <img src="https://images.unsplash.com/photo-1559190394-df5a28aab5c5?w=400&h=300&fit=crop" alt="Diabetes Care" class="service-image">
-                        <div class="service-overlay"></div>
+                    <div class="service-icon-wrapper">
+                        <svg class="service-icon-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 8V12L14 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8 12H16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
                     </div>
                     <h3>Diabetes Care</h3>
                     <p>Complete diabetes management and treatment with comprehensive monitoring and care.</p>
@@ -258,7 +249,7 @@
             <div class="underline"></div>
             <p class="section-subtitle">Explore our state-of-the-art facilities and specialized medical services</p>
             
-            <div class="gallery-grid">
+            <div class="gallery-scroll">
                 <div class="gallery-item">
                     <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=538,fit=crop/AzGX7oQr1NHeO5zr/green-modern-medical-facebook-post-2-dWxvBL82qkUB3G7Z.png" alt="Medical Services">
                     <div class="gallery-overlay">
@@ -272,7 +263,7 @@
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=891,fit=crop/AzGX7oQr1NHeO5zr/bhardwaj-fresh-image-d951KX91P6frjgel.jpg" alt="Hospital Facility">
+                    <img src="Gemini_Generated_Image_dhpr2bdhpr2bdhpr.png" alt="Hospital Building" class="hospital-building">
                     <div class="gallery-overlay">
                         <span>Hospital Facilities</span>
                     </div>
@@ -520,53 +511,34 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <div class="footer-logo">
-                        <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop,q=95/AzGX7oQr1NHeO5zr/logo-mp8Wvo4yqbF493wm.png" alt="Bhardwaj Hospital" class="footer-logo-img">
-                        <h3>Bhardwaj Hospital</h3>
-                    </div>
-                    <p>Comprehensive care in multiple medical specialties. Your health is our priority.</p>
-                    <div class="footer-social">
-                        <a href="https://www.facebook.com/bhardwajhospital/" target="_blank" rel="noopener" class="social-link">Facebook</a>
-                    </div>
+                    <h3>Bhardwaj Hospital</h3>
+                    <p>Your trusted healthcare partner in Varanasi</p>
                 </div>
                 
                 <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <ul class="footer-links">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#gallery">Gallery</a></li>
-                        <li><a href="#testimonials">Testimonials</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="#appointment">Appointment</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h4>Our Services</h4>
-                    <ul class="footer-links">
-                        <li><a href="#anorectal">Anorectal Care</a></li>
-                        <li><a href="#orthopaedic">Orthopaedic Surgery</a></li>
-                        <li><a href="#neuro">Neuro Surgery</a></li>
-                        <li><a href="#urology">Urology</a></li>
-                        <li><a href="#women-care">Women Care</a></li>
-                        <li><a href="#diabetes">Diabetes Care</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h4>Contact Information</h4>
+                    <h4>Contact</h4>
                     <div class="footer-contact">
-                        <p><strong>Email:</strong><br><a href="mailto:bhardwajhos.vns@gmail.com">bhardwajhos.vns@gmail.com</a></p>
-                        <p><strong>Phone:</strong><br><a href="tel:+919140815001">+91-9140815001</a></p>
-                        <p><strong>Address:</strong><br>Lahartara Bauliya,<br>Varanasi, Uttar Pradesh</p>
+                        <p><a href="mailto:bhardwajhos.vns@gmail.com">bhardwajhos.vns@gmail.com</a></p>
+                        <p><a href="tel:+919140815001">+91-9140815001</a></p>
+                        <p>Lahartara Bauliya, Varanasi, UP</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/bhardwajhospital/" target="_blank" rel="noopener" class="footer-facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                            <span>Facebook</span>
+                        </a>
                     </div>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2025 Bhardwaj Hospital. All rights reserved. | <a href="#privacy">Privacy Policy</a></p>
+                <p>&copy; 2025 Bhardwaj Hospital. All rights reserved.</p>
             </div>
         </div>
     </footer>
